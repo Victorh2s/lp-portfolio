@@ -11,4 +11,10 @@ describe('<GridFinal />', () => {
     expect(screen.getByText(/Linux Ubuntu/i)).toBeInTheDocument();
     expect(screen.getAllByLabelText('icon')).toHaveLength(3);
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<GridFinal />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

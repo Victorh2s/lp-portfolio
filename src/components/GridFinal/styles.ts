@@ -17,14 +17,15 @@ export const Wrapper = styled.div`
   @media ${theme.media.lteMedium}{
       display: block;
       align-items: center;
+      padding: ${theme.spacings.small};
 
       ${Image}{
         width: 7rem;
         height: 7rem;
-
-
       }
   }
+
+
   `}
 `;
 

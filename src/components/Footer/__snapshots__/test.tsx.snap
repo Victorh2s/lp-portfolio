@@ -1,0 +1,65 @@
+// Vitest Snapshot v1
+
+exports[`<Footer /> > should match to snapshot 1`] = `
+.c2 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #090213;
+  border-top: 0.1rem solid #078a85;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.c1 {
+  border: 0.1rem solid;
+  border-radius: 50rem;
+  width: 4rem;
+  height: 4rem;
+  z-index: 6;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <a
+      aria-label="Go to top"
+      class="c1"
+      href="#"
+      title="Go to top"
+    >
+      <svg
+        aria-hidden="true"
+        class="c2"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+`;

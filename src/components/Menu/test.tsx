@@ -34,4 +34,10 @@ describe('<Menu />', () => {
     });
     expect(screen.getByLabelText('Open Menu')).toBeInTheDocument();
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<Menu />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

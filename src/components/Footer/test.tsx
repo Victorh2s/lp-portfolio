@@ -8,4 +8,10 @@ describe('<Footer />', () => {
 
     expect(screen.getByLabelText(/Go to top/i)).toBeInTheDocument();
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<Footer />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

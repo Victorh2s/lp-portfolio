@@ -1,0 +1,139 @@
+// Vitest Snapshot v1
+
+exports[`<GridAcademic /> > should match to snapshot 1`] = `
+.c10 {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  font-family: 'Work Sans',sans-serif;
+  padding: 0;
+}
+
+.c2 {
+  color: #FFFFFF;
+  font-size: 3.2rem;
+  text-transform: none;
+}
+
+.c8 {
+  color: #FFFFFF;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c3 .c9 {
+  margin-top: -0.1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 .c1 {
+  padding: 1rem;
+}
+
+.c7 {
+  width: 6rem;
+  height: 5rem;
+  padding: 0.3rem;
+  border-radius: 10%;
+  background: #FFFFFF;
+}
+
+@media (max-width:768px) {
+  .c0 .c1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c3 .c9 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c4 {
+    display: block;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c5 {
+    display: inline;
+  }
+
+  .c5 .c6 {
+    width: 5rem;
+    height: 4rem;
+    padding: 0.1rem;
+  }
+
+  .c5 .c1 {
+    font-size: 2rem;
+    padding: 0;
+  }
+}
+
+<div>
+  <main
+    class="c0"
+  >
+    <h4
+      class="c1 c2"
+    >
+      Formação acadêmica
+    </h4>
+    <section
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        >
+          <img
+            alt="Estácio"
+            class="c6 c7"
+            src="/images/estacio.png"
+          />
+          <h5
+            class="c1 c8"
+          >
+            Universidade Estácio de Sá
+          </h5>
+        </div>
+      </div>
+      <p
+        class="c9 c10"
+      >
+        Análise e Desenvolvimento de Sistemas
+      </p>
+      <p
+        class="c9 c10"
+      >
+        Fev de 2022 - jun de 2024
+      </p>
+    </section>
+  </main>
+</div>
+`;

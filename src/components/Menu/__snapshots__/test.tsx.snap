@@ -1,0 +1,179 @@
+// Vitest Snapshot v1
+
+exports[`<Menu /> > should match to snapshot 1`] = `
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: 'Work Sans',sans-serif;
+  padding: 1.6rem;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.c3:hover {
+  color: #DDDDDD;
+}
+
+.c3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 0;
+  height: 0.2rem;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg,rgba(2,0,36,1) 0%,rgba(7,138,133,1) 100%);
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c3:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+.c2 {
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  -webkit-box-shadow: 0px -10px 36px -3px rgba(2,31,29,1);
+  -moz-box-shadow: 0px -10px 36px -3px rgba(2,31,29,1);
+  box-shadow: 0px -10px 36px -3px rgba(2,31,29,1);
+  background: #090213;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  display: none;
+  z-index: 6;
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  color: #090213;
+  border: none;
+  pointer-events: all;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  right: 1rem;
+  color: #FFFFFF;
+}
+
+.c0 > svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+@media (max-width:768px) {
+  .c2 {
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+    position: fixed;
+    text-align: center;
+    padding: 4.8rem 0;
+    max-width: 32rem;
+    height: 100vh;
+    overflow-y: auto;
+    right: 0;
+    border-right: 0.1rem solid #078a85;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    left: 1rem;
+  }
+}
+
+<div>
+  <button
+    aria-label="Open or close menu"
+    class="c0"
+    title="Open or close menu"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open Menu"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0V0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </button>
+  <nav
+    aria-hidden="false"
+    class="c2"
+  >
+    <a
+      class="c3"
+      href="#"
+      target="_self"
+    >
+      Sobre
+    </a>
+    <a
+      class="c3"
+      href="#Skills"
+      target="_self"
+    >
+      Skills
+    </a>
+    <a
+      class="c3"
+      href="#Certificações"
+      target="_self"
+    >
+      Certificações
+    </a>
+  </nav>
+</div>
+`;

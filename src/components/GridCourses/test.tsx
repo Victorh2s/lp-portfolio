@@ -15,4 +15,10 @@ describe('<GridCourses />', () => {
       screen.getByText(/Curso de JavaScript e TypeScript/i),
     ).toBeInTheDocument();
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<GridCourses />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

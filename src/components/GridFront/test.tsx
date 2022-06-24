@@ -11,7 +11,9 @@ describe('<GridFront />', () => {
     expect(screen.getAllByLabelText('icon')).toHaveLength(4);
   });
 
-  // it('should match snapshot', () => {
-  //   const { container } = renderTheme(<GridFront />);
-  // });
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<GridFront />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

@@ -9,4 +9,10 @@ describe('<Logo />', () => {
     expect(screen.getByRole('img')).toBeInTheDocument();
     expect(screen.getByRole('img')).toHaveAttribute('src', 'image.png');
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<Logo srcimg="image.png" />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

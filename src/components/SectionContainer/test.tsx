@@ -13,4 +13,10 @@ describe('<SectionContainer />', () => {
 
     expect(screen.getByText(/Lorem ipsum/i)).toBeInTheDocument();
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<SectionContainer {...props} />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

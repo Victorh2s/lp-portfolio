@@ -7,5 +7,6 @@ describe('<TwoColumns />', () => {
     renderTheme(<TwoColumns />);
 
     expect(screen.getAllByRole('img')).toHaveLength(1);
+    expect(screen.getByRole('heading', { name: 'Bem-vindo' }));
   });
 });

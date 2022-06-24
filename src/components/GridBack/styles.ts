@@ -4,14 +4,21 @@ import styled, { css } from 'styled-components';
 
 export const Front = styled.div`
   ${({ theme }) => css`
-    padding: ${theme.spacings.xlarge};
-    ${Heading}{
-        text-align: center;
-    }
-  border: 0.1rem solid;
-  border-image-slice: 1;
-  border-width: 0.1rem;
-  border-image-source: linear-gradient(to right, #090213, #078a85);
+  padding: ${theme.spacings.xlarge};
+
+${Heading}{
+    text-align: center;
+}
+
+border: 0.1rem solid;
+border-image-slice: 1;
+border-width: 0.1rem;
+border-image-source: linear-gradient(to right, #090213, #078a85);
+
+@media ${theme.media.lteMedium}{
+padding: ${theme.spacings.small};
+}
+
   `}
 `;
 

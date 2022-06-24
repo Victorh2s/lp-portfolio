@@ -8,4 +8,10 @@ describe('<Contato />', () => {
 
     expect(screen.getAllByLabelText('icon')).toHaveLength(2);
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<Contato />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

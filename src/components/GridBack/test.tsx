@@ -10,4 +10,10 @@ describe('<GridBack />', () => {
     expect(screen.getByText(/Node.Js/i)).toBeInTheDocument();
     expect(screen.getAllByLabelText('icon')).toHaveLength(4);
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<GridBack />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

@@ -34,14 +34,11 @@ export const Menu = () => {
         <MenuLink link="#" newTab={false}>
           Sobre
         </MenuLink>
-        <MenuLink link="#" newTab={false}>
+        <MenuLink link="#Skills" newTab={false}>
           Skills
         </MenuLink>
-        <MenuLink link="#" newTab={false}>
+        <MenuLink link="#Certificações" newTab={false}>
           Certificações
-        </MenuLink>
-        <MenuLink link="#" newTab={false}>
-          Contato
         </MenuLink>
       </Styled.MenuContainer>
     </>

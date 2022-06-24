@@ -1,0 +1,24 @@
+// Vitest Snapshot v1
+
+exports[`<Logo /> > should match to snapshot 1`] = `
+.c0 {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  border: 0.2rem solid #FFFFFF;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+<div>
+  <img
+    class="c0"
+    src="image.png"
+  />
+</div>
+`;

@@ -29,4 +29,10 @@ describe('<TextGrid />', () => {
       color: theme.colors.dark,
     });
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<TextGrid {...props} />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

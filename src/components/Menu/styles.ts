@@ -24,7 +24,9 @@ export const MenuContainer = styled.nav<MenuBehaviorProps>`
     left: 0;
     z-index: 1;
     width: 100%;
-    border-bottom: ${theme.colors.green};
+    -webkit-box-shadow: 0px -10px 36px -3px rgba(2,31,29,1);
+    -moz-box-shadow: 0px -10px 36px -3px rgba(2,31,29,1);
+    box-shadow: 0px -10px 36px -3px rgba(2,31,29,1);
     background: ${theme.colors.dark};
     transition: all 300ms ease-in-out;
     justify-content: center;
@@ -53,7 +55,7 @@ const buttonChanger = (
   theme: DefaultTheme,
 ) => css`
    right: ${Visible ? '26rem' : '1rem'};
-   color: ${Visible ? theme.colors.green : theme.colors.dark};
+   color: ${Visible ? theme.colors.green : theme.colors.white};
    @media ${theme.media.lteMedium} {
     left: ${Visible ? '26rem' : '1rem'};
   }

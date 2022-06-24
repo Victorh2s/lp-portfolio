@@ -11,4 +11,10 @@ describe('<GridText />', () => {
     expect(container.querySelectorAll('p')).toHaveLength(5);
     expect(screen.getByRole('img')).toBeInTheDocument();
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<GridText />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

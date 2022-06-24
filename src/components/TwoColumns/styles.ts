@@ -1,5 +1,6 @@
 import { Title as Heading } from '../Heading/styles';
 import styled, { css } from 'styled-components';
+import { Wrapper as TextGrid } from '../TextGrid/styles';
 
 export const Wrapper = styled.div`
   ${({ theme }) => css`
@@ -13,7 +14,7 @@ export const Wrapper = styled.div`
     @media ${theme.media.lteMedium} {
       grid-template-columns: 1fr;
       text-align: center;
-      padding: 0; 
+      padding: 0;
       ${Heading} {
       font-size: ${theme.font.sizes.medium};
     }
@@ -28,9 +29,12 @@ export const Wrapper = styled.div`
 `;
 
 export const profile = styled.div`
+margin-top: -10rem;
 `;
 
 export const description = styled.div`
 
-
+    ${TextGrid}{
+      text-align: justify;
+    }
 `;

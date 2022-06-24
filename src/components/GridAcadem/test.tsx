@@ -14,4 +14,10 @@ describe('<GridAcademic />', () => {
       screen.getByText(/Análise e Desenvolvimento de Sistemas/i),
     ).toBeInTheDocument();
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<GridAcademic />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

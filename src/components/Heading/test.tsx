@@ -91,4 +91,10 @@ describe('<Heading />', () => {
       media: theme.media.lteMedium,
     });
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<Heading>Example</Heading>);
+
+    expect(container).toMatchSnapshot();
+  });
 });

@@ -8,4 +8,10 @@ describe('<Text />', () => {
 
     expect(screen.getByText('Oi')).toBeInTheDocument();
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<Text htmlChildren={'<p>Oi</p>'} />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

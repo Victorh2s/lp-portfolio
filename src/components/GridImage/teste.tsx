@@ -13,4 +13,10 @@ describe('<GridImage />', () => {
     expect(screen.getByText(/React/i)).toBeInTheDocument();
     expect(screen.getByText(/Node/i)).toBeInTheDocument();
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<GridImage />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

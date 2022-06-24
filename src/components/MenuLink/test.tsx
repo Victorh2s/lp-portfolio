@@ -12,10 +12,7 @@ describe('<MenuLink />', () => {
   it('should render a link', () => {
     renderTheme(<MenuLink {...props} />);
 
-    expect(screen.getByRole('link', { name: 'MenuLink' })).toHaveAttribute(
-      'target',
-      '_self',
-    );
+    expect(screen.getByRole('link', { name: 'MenuLink' })).toBeInTheDocument();
   });
 
   it('should render a internal link', () => {
@@ -35,9 +32,34 @@ describe('<MenuLink />', () => {
       '_self',
     );
   });
-  // it('should match snapshot', () => {
-  //   const { container } = renderTheme(
-  //     <MenuLink link="/localhost" newTab={false} {...props} />,
-  //   );
-  // });
+
+  it('should render href in the document', () => {
+    renderTheme(<MenuLink link="/localhost" newTab={true} {...props} />);
+
+    expect(screen.getByRole('link', { name: 'MenuLink' })).toHaveAttribute(
+      'href',
+      '#',
+    );
+  });
+
+  it('should render href in the document with newTab f', () => {
+    renderTheme(<MenuLink link="/localhost" newTab={false} {...props} />);
+
+    expect(screen.getByRole('link', { name: 'MenuLink' })).toHaveAttribute(
+      'href',
+      '#',
+    );
+  });
+
+  it('should render children', () => {
+    renderTheme(<MenuLink {...props}>Example</MenuLink>);
+
+    expect(screen.getByText(/Example/i)).toBeInTheDocument();
+  });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<MenuLink {...props} />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

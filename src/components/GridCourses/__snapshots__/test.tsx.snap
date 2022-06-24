@@ -1,0 +1,312 @@
+// Vitest Snapshot v1
+
+exports[`<GridCourses /> > should match to snapshot 1`] = `
+.c12 {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  font-family: 'Work Sans',sans-serif;
+  padding: 0;
+}
+
+.c2 {
+  color: #FFFFFF;
+  font-size: 3.2rem;
+  text-transform: none;
+}
+
+.c7 {
+  color: #FFFFFF;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c9 {
+  padding: 3.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: 'Work Sans',sans-serif;
+  margin-top: 0.6rem;
+}
+
+.c10 >svg {
+  width: 2rem;
+  height: 2rem;
+  color: #078a85;
+}
+
+.c3 {
+  border-bottom: 0.1rem solid #078a85;
+}
+
+.c3 .c11 {
+  margin-top: -0.1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 >svg {
+  width: 5rem;
+  height: 5rem;
+  color: #FFFFFF;
+}
+
+.c6 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+@media (max-width:768px) {
+  .c9 > a {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 .c1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c3 .c11 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c4 {
+    display: block;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .c4 .c8 {
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    padding: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c5 .c1 {
+    font-size: 2rem;
+  }
+}
+
+<div>
+  <main
+    class="c0"
+  >
+    <h4
+      class="c1 c2"
+    >
+      Licenças e certificados
+    </h4>
+    <section
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        >
+          <svg
+            aria-hidden="true"
+            aria-label="udemy"
+            class="c6"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 0 5.81 3.573v3.574l6.189-3.574 6.191 3.574V3.573zM5.81 10.148v8.144c0 1.85.589 3.243 1.741 4.234S10.177 24 11.973 24s3.269-.482 4.448-1.474c1.179-.991 1.768-2.439 1.768-4.314v-8.064h-3.242v7.85c0 2.036-1.509 3.055-2.948 3.055-1.428 0-2.947-.991-2.947-3.027v-7.878z"
+            />
+          </svg>
+          <h5
+            class="c1 c7"
+          >
+            Udemy
+          </h5>
+        </div>
+        <div
+          class="c8 c9"
+        >
+          <a
+            class="c10"
+            href="https://www.udemy.com/certificate/UC-fcc76692-e6f8-4c7a-a71b-7e36dce27413/"
+            target="_blank"
+          >
+            Exibir Credencial 
+            <svg
+              aria-hidden="true"
+              aria-label="icon"
+              class="c6"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z"
+              />
+              <path
+                d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <p
+        class="c11 c12"
+      >
+        Curso de JavaScript e TypeScript.
+      </p>
+    </section>
+    <section
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        >
+          <svg
+            aria-hidden="true"
+            aria-label="udemy"
+            class="c6"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 0 5.81 3.573v3.574l6.189-3.574 6.191 3.574V3.573zM5.81 10.148v8.144c0 1.85.589 3.243 1.741 4.234S10.177 24 11.973 24s3.269-.482 4.448-1.474c1.179-.991 1.768-2.439 1.768-4.314v-8.064h-3.242v7.85c0 2.036-1.509 3.055-2.948 3.055-1.428 0-2.947-.991-2.947-3.027v-7.878z"
+            />
+          </svg>
+          <h5
+            class="c1 c7"
+          >
+            Udemy
+          </h5>
+        </div>
+        <div
+          class="c8 c9"
+        >
+          <a
+            class="c10"
+            href="https://www.udemy.com/certificate/UC-fcc76692-e6f8-4c7a-a71b-7e36dce27413/"
+            target="_blank"
+          >
+            Exibir Credencial 
+            <svg
+              aria-hidden="true"
+              aria-label="icon"
+              class="c6"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z"
+              />
+              <path
+                d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <p
+        class="c11 c12"
+      >
+        Testando aqui
+      </p>
+    </section>
+    <section
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        >
+          <svg
+            aria-hidden="true"
+            aria-label="udemy"
+            class="c6"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 0 5.81 3.573v3.574l6.189-3.574 6.191 3.574V3.573zM5.81 10.148v8.144c0 1.85.589 3.243 1.741 4.234S10.177 24 11.973 24s3.269-.482 4.448-1.474c1.179-.991 1.768-2.439 1.768-4.314v-8.064h-3.242v7.85c0 2.036-1.509 3.055-2.948 3.055-1.428 0-2.947-.991-2.947-3.027v-7.878z"
+            />
+          </svg>
+          <h5
+            class="c1 c7"
+          >
+            Udemy
+          </h5>
+        </div>
+        <div
+          class="c8 c9"
+        >
+          <a
+            class="c10"
+            href="https://www.udemy.com/certificate/UC-fcc76692-e6f8-4c7a-a71b-7e36dce27413/"
+            target="_blank"
+          >
+            Exibir Credencial 
+            <svg
+              aria-hidden="true"
+              aria-label="icon"
+              class="c6"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z"
+              />
+              <path
+                d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <p
+        class="c11 c12"
+      >
+        Testando aqui
+      </p>
+    </section>
+  </main>
+</div>
+`;

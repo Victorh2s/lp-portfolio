@@ -15,4 +15,10 @@ describe('<Certification />', () => {
       screen.getByRole('link', { name: 'Exibir Credencial' }),
     ).toBeInTheDocument();
   });
+
+  it('should match to snapshot', () => {
+    const { container } = renderTheme(<Certification {...props} />);
+
+    expect(container).toMatchSnapshot();
+  });
 });
